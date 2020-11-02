@@ -1,0 +1,178 @@
+@import 'font.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 1110px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+body {
+    font-family: 'Roboto-Regular';
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-info {
+    padding: 20px 0 15px 0;
+}
+
+.nav-info p,
+.footer-info p {
+    line-height: 21.09px;
+    text-align: center;
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Roboto-Bold';
+}
+
+.footer-info p {
+    color: #ffffff;
+}
+
+header ul a,
+footer ul a {
+    color: #3A3838;
+    padding: 23px 0px 27px 15px;
+    line-height: 21.09px;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto-Bold';
+    transition: color 0.5s;
+}
+
+footer ul a {
+    color: #ffffff;
+}
+
+header ul a:hover,
+footer ul a:hover {
+    color: #EF4423;
+}
+
+.header-bg {
+    height: 272px;
+    padding-bottom: 36px;
+}
+
+main {
+    margin: auto;
+    width: 1400px;
+}
+
+.main-item {
+    width: 350px;
+    background: #B71C1C;
+}
+
+.main-item img {
+    display: block;
+}
+
+.main-item:nth-of-type(2) {
+    background: #6A1B9A;
+}
+
+.main-item:nth-of-type(3) {
+    background: #303F9F;
+}
+
+.main-item:last-of-type {
+    background: #00695C;
+}
+
+.main-title {
+    color: #ffffff;
+    font-family: 'Roboto-Bold';
+    font-size: 19px;
+    line-height: 22.27px;
+    padding: 8px 15px;
+}
+
+.main-item:nth-of-type(2) .main-title,
+.main-item:last-of-type .main-title {
+    padding: 15px 15px 9px;
+}
+
+.main-text {
+    padding: 0 15px 15px;
+    line-height: 19px;
+    color: #EBEBEB;
+}
+
+.main-item:nth-of-type(2) .main-text,
+.main-item:last-of-type .main-text {
+    padding: 0 15px 7px;
+}
+
+.main__news {
+    margin: 40px 0 50px;
+}
+
+.main__news h2 {
+    padding-bottom: 40px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    font-family: 'Roboto-Bold';
+    text-align: center;
+}
+
+.news__bg {
+    background: #EDEDED;
+    ;
+}
+
+.news__right {
+    width: 540px;
+}
+
+.news__right h2 {
+    padding: 20px 0 30px;
+    text-align: left;
+}
+
+.news__right p {
+    color: #686868;
+    font-size: 18px;
+    line-height: 21.09px;
+    padding-bottom: 31px;
+}
+
+footer {
+    margin: auto;
+    width: 1400px;
+    background: #3A3838;
+    padding: 28px 0 29px;
+}
